@@ -1,0 +1,21 @@
+{
+    "name": "ptraon/phpmvc",
+    "authors": [
+        {
+            "name": "ptraon",
+            "email": "ptraon@webnet.fr"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.6"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*",
+        "phpmetrics/phpmetrics": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+        	"Philippe\\Blog\\Src\\": "src/"
+        }
+    }
+}
